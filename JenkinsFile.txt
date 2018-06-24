@@ -3,7 +3,7 @@ node {
 		checkout scm
 
 	stage 'Build'
-		bat "\"${tool 'MSBuild'}\" BankingSite.sln"
+		bat msbuild BankingSite.sln"
 
 	stage 'Archive'
 		archive 'ProjectName/bin/Release/**'
