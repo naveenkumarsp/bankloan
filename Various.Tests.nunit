@@ -1,8 +1,8 @@
 <NUnitProject>
   <Settings activeconfig="Debug"/>
   <Config name="Debug">
-    <assembly path="%WORKSPACE%\BankingSite.ViewTests\bin\Debug\BankingSite.ViewTests.dll"/>
-    <assembly path="%WORKSPACE%\BankingSite.IntegrationTests\bin\Debug\BankingSite.IntegrationTests.dll"/>
-	<assembly path="%WORKSPACE%\BankingSite.UnitTests\bin\Debug\BankingSite.UnitTests.dll"/>
+    <assembly path="\BankingSite.ViewTests\bin\Debug\BankingSite.ViewTests.dll"/>
+    <assembly path="\BankingSite.IntegrationTests\bin\Debug\BankingSite.IntegrationTests.dll"/>
+	<assembly path="\BankingSite.UnitTests\bin\Debug\BankingSite.UnitTests.dll"/>
   </Config>
 </NUnitProject>
